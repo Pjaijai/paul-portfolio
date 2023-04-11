@@ -1,6 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 body {
-  @apply bg-[#050727F4] text-zinc-200;
+  @apply bg-[#050727F4]  text-zinc-200 p-16 font-sans;
+}
+
+p {
+  @apply text-neutral-300 font-light text-sm;
 }

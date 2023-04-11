@@ -1,5 +1,6 @@
 import * as React from 'react'
 import type { HeadFC, PageProps } from 'gatsby'
+import AboutMeSection from '../components/sections/aboutMe'
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
@@ -15,6 +16,7 @@ const IndexPage: React.FC<PageProps> = () => {
         client-side and server-side development, I can provide a comprehensive
         solution for any web project.
       </h6>
+      <AboutMeSection />
     </main>
   )
 }
